@@ -1,0 +1,8 @@
+[org/cinnamon/desktop/background]
+picture-uri='file:///usr/share/backgrounds/brace/brace.jpg'
+
+[org/gnome/desktop/background]
+picture-uri='file:///usr/share/backgrounds/brace/brace.jpg'
+
+[org/mate/desktop/background]
+picture-filename='/usr/share/backgrounds/brace/brace.jpg'
