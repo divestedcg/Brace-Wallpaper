@@ -1,5 +1,5 @@
 Name: brace-background
-Version: 20201206
+Version: 20210128
 Release: 1
 Summary: A different default background.
 License: Unsplash
@@ -25,4 +25,5 @@ install -Dm644 pawel-czerwinski-1538544-unsplash.jpg %{buildroot}/usr/share/back
 %files
 /etc/dconf/db/local.d/00-brace-background
 /usr/share/gnome-background-properties/brace-backgrounds.xml
+/usr/share/mate-background-properties/brace-backgrounds.xml
 /usr/share/backgrounds/brace/brace.jpg
