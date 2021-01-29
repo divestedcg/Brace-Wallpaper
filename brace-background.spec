@@ -1,6 +1,6 @@
 Name: brace-background
 Version: 20210128
-Release: 2
+Release: 4
 Summary: A different default background.
 License: Unsplash
 BuildArch: noarch
@@ -20,10 +20,12 @@ if [ -f /usr/bin/dconf ]; then dconf update; fi;
 install -Dm644 00-brace-background %{buildroot}/etc/dconf/db/local.d/00-brace-background
 install -Dm644 brace-backgrounds.xml %{buildroot}/usr/share/gnome-background-properties/brace-backgrounds.xml
 install -Dm644 brace-backgrounds.xml %{buildroot}/usr/share/mate-background-properties/brace-backgrounds.xml
-install -Dm644 pawel-czerwinski-1538544-unsplash.jpg %{buildroot}/usr/share/backgrounds/brace/brace.jpg
+install -Dm644 pawel-czerwinski-1538544-unsplash-1080p.jpg %{buildroot}/usr/share/backgrounds/brace/brace.jpg
+install -Dm644 pawel-czerwinski-1538544-unsplash-2160p.jpg %{buildroot}/usr/share/backgrounds/brace/brace-2160p.jpg
 
 %files
 /etc/dconf/db/local.d/00-brace-background
 /usr/share/gnome-background-properties/brace-backgrounds.xml
 /usr/share/mate-background-properties/brace-backgrounds.xml
 /usr/share/backgrounds/brace/brace.jpg
+/usr/share/backgrounds/brace/brace-2160p.jpg
