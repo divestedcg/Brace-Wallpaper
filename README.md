@@ -7,4 +7,4 @@ A nice background to complement brace.
 
 Credits
 -------
-- Wallpaper, Paweł Czerwiński, License: Unsplash
+- Background, Paweł Czerwiński, License: Unsplash
