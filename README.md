@@ -5,6 +5,11 @@ Overview
 --------
 A nice background to complement brace.
 
+Prebuilts
+---------
+- Fedora via Divested-RPM: https://divested.dev/index.php?page=software#divested-release
+- Fedora via CI: https://gitlab.com/divested/brace-wallpaper/-/jobs/artifacts/master/browse?job=build_rpm
+
 Building
 --------
 - git clone [THIS REPO]
