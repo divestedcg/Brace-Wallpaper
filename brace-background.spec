@@ -1,6 +1,6 @@
 Name: brace-background
 Version: 20211005
-Release: 1
+Release: 2
 Summary: A different default background.
 License: Unsplash
 BuildArch: noarch
